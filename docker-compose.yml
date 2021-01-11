@@ -1,0 +1,14 @@
+version: '3.5'
+services:
+  mongodb:
+    image: mongo
+    restart: always
+    container_name: "mongodb"
+    environment:
+      - MONGO_DATA_DIR=/db/data
+      - MONGO_LOG_DIR=/dev/null
+    volumes:
+      - ./db/data:/data/db
+    ports:
+      - 27017:27017
+    command: mongod --bind_ip_all --logpath=/dev/null # --quiet

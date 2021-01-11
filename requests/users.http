@@ -1,0 +1,22 @@
+###
+GET http://127.0.0.1:3000/api/users
+
+###
+POST http://127.0.0.1:3000/api/users
+Content-Type: application/json
+
+{
+    "name": "Ricardo",
+    "email": "rik@example.com",
+    "password": "1234",
+    "image": "null"
+}
+
+###
+GET http://127.0.0.1:3000/api/users
+
+###
+PUT http://127.0.0.1:3000/api/users
+
+###
+DELETE http://127.0.0.1:3000/api/users

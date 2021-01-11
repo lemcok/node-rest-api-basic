@@ -1,0 +1,35 @@
+###
+GET http://127.0.0.1:3000/api/products
+
+###
+POST http://127.0.0.1:3000/api/products
+Content-Type: application/json
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmZjBiOTg2NzM2ZjQ4NzBhNjQ3MjM0NCIsImlhdCI6MTYxMDA4MzI5NiwiZXhwIjoxNjEwMTY5Njk2fQ.iaBSR1mYtxDajO99UBUUgCrzCgjAYmsI-093kxdRjsI
+
+{
+    "name": "laptop lenovo",
+    "category": "laptops",
+    "price": 3100.00,
+    "image": "p1"
+}
+
+###
+GET  http://127.0.0.1:3000/api/products/5fee6df4b081234ef253b37c
+
+###
+PUT  http://127.0.0.1:3000/api/products/5fee6df4b081234ef253b37c
+Content-Type: application/json
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmZjc1MzIxMGM2MTQ1MTU4MTczYzAwMSIsImlhdCI6MTYxMDA4MjYzMywiZXhwIjoxNjEwMTY5MDMzfQ.qfLc81tK7OBLCQg43K4qYUcGxMKZqMY_2LDlUAyC1Ss
+
+{
+    "name": "laptop lenovo yoga",
+    "category": "laptops",
+    "price": 3500.00,
+    "image": "p2"
+}
+
+###
+DELETE  http://127.0.0.1:3000/api/products/5ff11457ea9152515c737d15
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmZjBiOTg2NzM2ZjQ4NzBhNjQ3MjM0NCIsImlhdCI6MTYwOTYzMzQ5NywiZXhwIjoxNjA5NzE5ODk3fQ.yjvAH3AklYvFKjxpiinzPIdMxQ1PI_RfFhUB0MDILGI
+
+
