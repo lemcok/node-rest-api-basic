@@ -4,7 +4,7 @@ GET http://127.0.0.1:3000/api/products
 ###
 POST http://127.0.0.1:3000/api/products
 Content-Type: application/json
-x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmZjBiOTg2NzM2ZjQ4NzBhNjQ3MjM0NCIsImlhdCI6MTYxMDA4MzI5NiwiZXhwIjoxNjEwMTY5Njk2fQ.iaBSR1mYtxDajO99UBUUgCrzCgjAYmsI-093kxdRjsI
+x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyOTY4Y2ZjZTk0MDc3MzRhY2VkODM1ZCIsImlhdCI6MTY1NDAzNDI3NiwiZXhwIjoxNjU0MTIwNjc2fQ.s5lPbIdIYPx2NJlOh3Ro2P2dtAYA9AxfrzYo7munVPc
 
 {
     "name": "laptop lenovo",
