@@ -1,4 +1,14 @@
 ###
+POST http://127.0.0.1:3000/api/auth/signin
+Content-Type: application/json
+
+{
+    "email": "admin@example.com",
+    "password": "admin"
+}
+
+
+###
 POST http://127.0.0.1:3000/api/auth/signup
 Content-Type: application/json
 
@@ -17,15 +27,6 @@ Content-Type: application/json
 {
     "email": "rik5@example.com",
     "password": "1234"
-}
-
-###
-POST http://127.0.0.1:3000/api/auth/signin
-Content-Type: application/json
-
-{
-    "email": "admin@example.com",
-    "password": "admin"
 }
 
 ###

@@ -2,9 +2,9 @@ import express from 'express';
 
 import { createRoles } from './libs/initialSetup';
 
-import UsersRoutes from './routes/users.routes';
-import ProductsRoutes from './routes/products.routes';
-import authRoutes from './routes/auth.routes';
+import UsersRoutes from './api/users/users.routes';
+import ProductsRoutes from './api/products/products.routes';
+import authRoutes from './api/auth/auth.routes';
 
 const app = express();
 createRoles();

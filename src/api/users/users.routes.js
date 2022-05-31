@@ -1,8 +1,8 @@
 import { Router } from 'express';
-import User from '../models/User';
+import User from './users.model';
 
-import * as userCtrl from '../controllers/user.controller';
-import { authJwt, verifySignup } from '../middlewares';
+import * as userCtrl from './users.controller';
+import { authJwt, verifySignup } from '../../middlewares';
 
 const router = Router();
 

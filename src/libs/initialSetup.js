@@ -1,5 +1,5 @@
-import Role from '../models/Role';
-import User from '../models/User';
+import Role from '../api/roles/roles.model';
+import User from '../api/users/users.model';
 
 export const createRoles = async () => {
 
@@ -7,7 +7,7 @@ export const createRoles = async () => {
         const count = await Role.estimatedDocumentCount();
         const countUsers = await User.estimatedDocumentCount();
 
-        if (count>0 && countUsers > 0) return;
+        if (count > 0) return;
 
         const values = await Promise.all([
             new Role({name: 'admin'}).save(),

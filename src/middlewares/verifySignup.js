@@ -1,5 +1,5 @@
-import { ROLES } from "../models/Role"
-import User from "../models/User"
+import { ROLES } from "../api/roles/roles.model"
+import User from "../api/users/users.model"
 
 
 export const checkDuplicateEmail = async (req, res, next) => {
